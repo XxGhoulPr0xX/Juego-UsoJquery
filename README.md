@@ -1,2 +1,1 @@
-Uso sencillo de jquery. 
-Datos enviados del servidor al cliente y del cliente al servidor
+Proyecto autodidacta realizado para conocer el funcionamiento basico de respuestas y enviar respuestas a nivel cliente servidor
