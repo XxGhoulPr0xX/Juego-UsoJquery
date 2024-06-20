@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.container-general {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pecera {
+    position: relative;
+    flex-grow: 3;
+    flex-basis: 75%;
+    overflow: hidden;
+    background-image: url("assets/Fondo4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%; /* Agrega esta línea */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 8%; /* Ajusta este valor para cambiar el tamaño relativo */
+    padding: 20px;
+    background-color: #212F3D; /* Color de fondo para la sección de botones */
+    flex-direction: column; /* Alinea los botones en columna */
+}
+
+.cuadrado-gris {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin-bottom: 20px; /* Espacio entre el cuadrado y los botones */
+}
+
+#boton_verde, #boton_rojo {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Bordes redondeados */
+    width: 90px; /* Ancho del botón */
+    height: 90px; /* Altura del botón */
+    text-align: center; /* Alineación del texto al centro */
+    display: flex; /* Para centrar el texto verticalmente */
+    justify-content: center; /* Para centrar el texto horizontalmente */
+    align-items: center; /* Para centrar el texto verticalmente */
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+#boton_verde {
+    background-color: #33691E;
+}
+
+#boton_rojo {
+    background-color: #B71C1C;
+}
+
+.medusas {
+    position: absolute;
+    width: 100px;
+    height: 1px; /*No mover Jjajajaja*/
+    animation: move 5s cubic-bezier(0.91, 0.05, 0, 0.44) infinite;
+}
+
+#pescado {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    bottom: 0; /* Lo colocamos en la parte inferior */
+}

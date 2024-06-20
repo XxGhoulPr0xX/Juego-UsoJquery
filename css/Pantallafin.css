@@ -1,0 +1,58 @@
+/* archivo: css/Pantallafin.css */
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #1a1a1a;
+}
+
+th,
+td {
+    border: 1px solid #555;
+    padding: 15px;
+    text-align: center;
+    color: yellow;
+}
+
+th {
+    background-color: #333;
+    font-size: 1.2em;
+}
+
+td {
+    background-color: #222;
+}
+
+h1 {
+    color: yellow;
+    margin: 0;
+}
+
+.footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: yellow;
+    border-top: 1px solid #555;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1em;
+}

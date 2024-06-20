@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background-color: #111;
+    
+}
+#score-board {
+    position: absolute; /* Posiciona el marcador de puntuación de manera absoluta dentro del contenedor del juego */
+    top: 0px; /* Separa el marcador 10px desde la parte superior */
+    right: 0px; /* Separa el marcador 10px desde la derecha */
+    background-color: black; /* Fondo amarillo para el marcador */
+    border-radius: 0px; /* Sin bordes redondeados */
+    display: flex; /* Uso de flexbox para alinear elementos hijos */
+    justify-content: center;
+    align-items: center; /* Alinea los elementos hijos verticalmente al centro */
+    height:absolute;
+    width: 200px;
+}
+
+#score {
+    color: black;
+    font-size: 50px; /* Tamaño de fuente grande */
+    background-color: yellow; /* Fondo amarillo para el marcador */
+    text-align: center;
+    border-radius: 0px; /* Sin bordes redondeados */
+    display: flex; /* Utiliza flexbox para el centrado */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    width: 125px;
+    height: 125px;
+}
+
+#controls {
+    display: stretch; /* Usa flexbox para distribuir los botones */
+    gap: 500px;
+}
+
+.button {
+    width: 150px; /* Ancho */
+    height: 150px; /* Altura*/
+    border-radius: 50%; /* Botones redondeados */
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+#gameCanvas {
+    width: 99.6%;
+    height: 99vh; /* 100vh asegura que la altura ocupe toda la altura de la pantalla */
+    display: block;
+    background: url('assets/Fondo2Mar.png') no-repeat center center;
+    background-size: auto;
+    border: 2px solid #000;
+    background-size: cover; /* asegura que la imagen cubra todo el contenedor */
+    background-repeat: no-repeat; /* evita que la imagen se repita */
+    background-position: center; /* centra la imagen en el contenedor */
+    
+}
+
+

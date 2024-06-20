@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.login-box {
+    width: 310px;
+    height: 410px;
+    box-shadow: 0 0 130px rgba(255, 255, 255, 0.851);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-box .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solido #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.login-box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgray;
+    text-align: center;
+}
+
+header {
+    color: black;
+    padding: 1rem 1rem;
+    font-size: xx-large;
+    text-align: center;
+}
+
+form a {
+    transition: color 0.3s ease-in-out;
+    color: #fff;
+    text-decoration: none;
+}
+
+form a:hover {
+    color: rgb(136, 4, 4);
+}
+
+title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
+}
+
+/* Media query para smartphones */
+@media only screen and (max-width: 600px) {
+    .chat-container {
+        width: 100%;
+    }
+
+    #video-background {
+        display: none;
+        /* O esconde el video completamente */
+    }
+}
+
+/* Media query para laptops y computadoras de escritorio */
+@media only screen and (min-width: 601px) {
+    /* Puedes agregar estilos específicos para pantallas más grandes aquí si es necesario */
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Otros estilos específicos para pantallas medianas */
+}
